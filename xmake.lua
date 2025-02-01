@@ -1,0 +1,5 @@
+add_requires("vcpkg::opencl")
+target("test")
+    set_kind("binary")
+    add_files("*.c")
+add_packages("vcpkg::opencl")
