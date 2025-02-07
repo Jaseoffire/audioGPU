@@ -1,5 +1,5 @@
-add_requires("vcpkg::opencl")
+add_requires("vcpkg::arrayfire")
 target("test")
     set_kind("binary")
-    add_files("*.c")
-add_packages("vcpkg::opencl")
+    add_files("*.cpp")
+add_packages("vcpkg::arrayfire")
